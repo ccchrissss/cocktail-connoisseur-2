@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import Header from './components/Header'
+import CocktailPicker from './components/CocktailPicker'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Header />
+      <CocktailPicker />
     </>
 
   )
